@@ -1,0 +1,23 @@
+//global styles and changiong bulma variables
+
+//import google font
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito+Sans&display=swap');
+
+$family-sans-serif: "Nunito", sans-serif;
+
+//update some of the bulma component variables
+$control-border-with: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+/*global styles*/
+html, body {
+    height: 100%;
+
+}
+
+html {
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    overflow-y: auto !important;
+}
